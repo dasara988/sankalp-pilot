@@ -14,7 +14,7 @@ def test_clean_claim_is_approved_with_value_at_pts():
     r = run_email("x", "STK0117", "2026-10-16", read=claim(line("L2400579", 38, "INV/S01/2507/044588")))
     assert r["decision"] == "Approve"
     assert r["lines"][0]["value_inr"] == 5749.40           # 38 x Rs 151.30
-    assert "accepted" in r["reply"]
+    assert "accepted" in r["reply"] and "38 packs" in r["reply"]
 
 
 def test_resent_pending_claim_is_rejected_as_duplicate():

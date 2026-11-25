@@ -245,7 +245,7 @@ def write_reply(state: State) -> dict:
     name = stk.get("stockist_name", "Sir/Madam")
     parts = [f"Dear {name},", "", "Thank you for your email."]
     for ln in state.get("lines", []):
-        head = f"Line {ln['line']} ({ln['product']}, batch {ln['batch_no']}, {ln['quantity'] if ln['quantity'] is not None else '?'} packs)"
+        head = f"Line {ln['line']} ({ln['product']}, batch {ln['batch_no']}, {f"{ln['quantity']:g}" if ln['quantity'] is not None else '?'} packs)"
         if ln["decision"] == "Approve":
             parts.append(f"- {head}: accepted. A credit note of Rs {ln['value_inr']:,.2f} will follow once the C&F verifies the stock.")
         elif ln["decision"] == "Reject":

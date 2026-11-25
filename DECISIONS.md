@@ -226,6 +226,7 @@ Every limit lives in `config.py` with its page. `tests/test_rules.py` tests each
 - **Type:** Guide
 - **Decision:** After the first deploy, set the function region to bom1.
 - **Evidence:** Guide p6, step 6: "Move the function to Mumbai."
+- **Done:** set in Vercel Settings, Functions, 25 Nov 2026.
 
 ### D27 · No `Send` and no `interrupt()`
 - **Type:** Brief + Judgement
@@ -245,8 +246,8 @@ Every limit lives in `config.py` with its page. `tests/test_rules.py` tests each
   - 46 unit tests pass.
   - Offline, fields read by hand: 20 of 20.
   - With the model, run 1 (before D29 and D30): 18 of 20. Misses: EML-002 and EML-011.
-  - With the model, after D29 and D30: ___ of 20.
-  - Live URL: ___ of 20.
+  - With the model, after D29 and D30: 20 of 20 (25 Nov 2026).
+  - Live URL https://sankalp-pilot-iota.vercel.app: 20 of 20 (25 Nov 2026).
 
 ---
 

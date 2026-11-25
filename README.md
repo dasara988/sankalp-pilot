@@ -2,6 +2,8 @@
 
 A pilot for Pfizer Limited's General Medicines trade channel (fictional teaching case, FDE Academy Project 1).
 
+**Live:** https://sankalp-pilot-iota.vercel.app (Vercel Hobby, region bom1, Mumbai)
+
 | Screen | Used by | Weekly decision it supports |
 |---|---|---|
 | **Claims checker** | Neha Bansal's claims executives, Commercial Finance | Credit, reject or review each near-expiry or expired claim from the claims mailbox |
