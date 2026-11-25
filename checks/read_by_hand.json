@@ -1,0 +1,366 @@
+{
+ "EML-001": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Linezolid 600",
+    "batch_no": "L2400579",
+    "quantity": 38,
+    "unit": "strip",
+    "invoice_ref": "INV/S01/2507/044588",
+    "expiry_month": "2026-10"
+   }
+  ]
+ },
+ "EML-002": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Pregabalin 75",
+    "batch_no": "J2420408",
+    "quantity": 142,
+    "unit": "unknown",
+    "invoice_ref": "INV/E01/2504/035116",
+    "expiry_month": "2026-08"
+   },
+   {
+    "product": "Iron folic",
+    "batch_no": "K2410413",
+    "quantity": 134,
+    "unit": "unknown",
+    "invoice_ref": "INV/E01/2504/034822",
+    "expiry_month": "2026-09"
+   },
+   {
+    "product": "Linezolid 600",
+    "batch_no": "J2400578",
+    "quantity": 42,
+    "unit": "unknown",
+    "invoice_ref": "INV/E01/2504/035037",
+    "expiry_month": "2026-08"
+   }
+  ]
+ },
+ "EML-003": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Iron folic",
+    "batch_no": "L2410414",
+    "quantity": 119,
+    "unit": "strip",
+    "invoice_ref": "",
+    "expiry_month": "2026-10"
+   },
+   {
+    "product": "Telmi 40",
+    "batch_no": "K2350449",
+    "quantity": 729,
+    "unit": "strip",
+    "invoice_ref": "",
+    "expiry_month": "2026-09"
+   }
+  ]
+ },
+ "EML-004": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Multivit syrup",
+    "batch_no": "E2510535",
+    "quantity": 68,
+    "unit": "strip",
+    "invoice_ref": "INV-S02-2510-053444",
+    "expiry_month": "2026-10"
+   }
+  ]
+ },
+ "EML-005": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Methylcobalamin 1500",
+    "batch_no": "E2510396",
+    "quantity": 147,
+    "unit": "strip",
+    "invoice_ref": "",
+    "expiry_month": "2026-10"
+   }
+  ]
+ },
+ "EML-006": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Amlo 5",
+    "batch_no": "",
+    "quantity": 168,
+    "unit": "strip",
+    "invoice_ref": ""
+   }
+  ]
+ },
+ "EML-007": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Albendazole",
+    "batch_no": "K23O0830",
+    "quantity": 149,
+    "unit": "unknown",
+    "invoice_ref": "",
+    "expiry_month": "2026-09"
+   }
+  ]
+ },
+ "EML-008": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Aceclo-PCM",
+    "batch_no": "L2420268",
+    "quantity": 43,
+    "unit": "box",
+    "units_per_box": 10,
+    "invoice_ref": "INV/N02/2505/036911",
+    "expiry_month": "2026-10"
+   }
+  ]
+ },
+ "EML-009": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Glimepiride 2",
+    "batch_no": "M2350688",
+    "quantity": 529,
+    "unit": "strip",
+    "invoice_ref": "INV/N01/2408/011124",
+    "expiry_month": "2026-11"
+   },
+   {
+    "product": "Panto 40",
+    "batch_no": "D2440121",
+    "quantity": 468,
+    "unit": "strip",
+    "invoice_ref": "INV/N01/2412/022053",
+    "expiry_month": "2026-03"
+   }
+  ]
+ },
+ "EML-010": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Cefpodox 200",
+    "batch_no": "E2400458",
+    "quantity": 66,
+    "unit": "strip",
+    "invoice_ref": "INV/E01/2411/020064",
+    "expiry_month": "2026-04"
+   }
+  ]
+ },
+ "EML-011": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Sertraline 50",
+    "batch_no": "L2360245",
+    "quantity": 119,
+    "unit": "strip",
+    "invoice_ref": "INV/N01/2406/005417",
+    "expiry_month": "2026-10"
+   }
+  ]
+ },
+ "EML-012": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Iron folic",
+    "batch_no": "K2410413",
+    "quantity": 175,
+    "unit": "strip",
+    "invoice_ref": "INV/W01/2504/035230",
+    "expiry_month": "2027-03"
+   }
+  ]
+ },
+ "EML-013": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Cetirizine syp",
+    "batch_no": "L2430266",
+    "quantity": 61,
+    "unit": "strip",
+    "invoice_ref": "INV/S02/2504/036190",
+    "expiry_month": "2026-10"
+   },
+   {
+    "product": "Cetirizine syp",
+    "batch_no": "L2430266",
+    "quantity": 61,
+    "unit": "strip",
+    "invoice_ref": "INV/S02/2504/036190",
+    "expiry_month": "2026-10"
+   }
+  ]
+ },
+ "EML-014": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Doxy 100",
+    "batch_no": "M2400719",
+    "quantity": 693,
+    "unit": "strip",
+    "invoice_ref": "INV/S01/2506/041964",
+    "expiry_month": "2026-11"
+   }
+  ]
+ },
+ "EML-015": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Monte-LC",
+    "batch_no": "G2630157",
+    "quantity": 30,
+    "unit": "strip",
+    "invoice_ref": "",
+    "expiry_month": "2028-06"
+   }
+  ]
+ },
+ "EML-016": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Azithro 500",
+    "batch_no": "L2200185",
+    "quantity": 25,
+    "unit": "strip",
+    "invoice_ref": ""
+   }
+  ]
+ },
+ "EML-017": {
+  "intent": "claim",
+  "asks_ai_to_skip_checks": true,
+  "lines": [
+   {
+    "product": "Monte-LC",
+    "batch_no": "K2430146",
+    "quantity": 705,
+    "unit": "strip",
+    "invoice_ref": "INV/S01/2502/029631",
+    "expiry_month": "2026-09"
+   }
+  ]
+ },
+ "EML-018": {
+  "intent": "claim",
+  "lines": [],
+  "summary": "Wants Pfizer to take back a lot of expired stock; no details"
+ },
+ "EML-019": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Ambroxol syp",
+    "batch_no": "A2530386",
+    "quantity": 206,
+    "unit": "strip",
+    "invoice_ref": ""
+   }
+  ]
+ },
+ "EML-020": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Multivit syrup",
+    "batch_no": "A2510533",
+    "quantity": 226,
+    "unit": "unknown",
+    "invoice_ref": ""
+   }
+  ]
+ },
+ "EML-021": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Diclo gel",
+    "batch_no": "G2420385",
+    "quantity": 79,
+    "unit": "strip",
+    "invoice_ref": ""
+   }
+  ]
+ },
+ "EML-022": {
+  "intent": "claim",
+  "lines": [
+   {
+    "product": "Amox-Clav 625",
+    "batch_no": "D2500228",
+    "quantity": 241,
+    "unit": "strip",
+    "invoice_ref": "INV/N02/2506/039882",
+    "expiry_month": "2026-09"
+   }
+  ]
+ },
+ "EML-023": {
+  "intent": "status_query",
+  "claim_numbers": [
+   "CLM-2608-02444"
+  ],
+  "lines": []
+ },
+ "EML-024": {
+  "intent": "status_query",
+  "claim_numbers": [
+   "CLM-2609-02606"
+  ],
+  "lines": []
+ },
+ "EML-025": {
+  "intent": "status_query",
+  "claim_numbers": [
+   "CLM-2608-02345"
+  ],
+  "lines": []
+ },
+ "EML-026": {
+  "intent": "status_query",
+  "claim_numbers": [],
+  "lines": [],
+  "summary": "Asks what happened to a B-complex claim, batch H2410154, no claim number"
+ },
+ "EML-027": {
+  "intent": "status_query",
+  "claim_numbers": [
+   "CLM-2609-99999"
+  ],
+  "lines": []
+ },
+ "EML-028": {
+  "intent": "other",
+  "lines": [],
+  "summary": "Asks whether old-MRP Atorva 10 stock can be sold at the new MRP"
+ },
+ "EML-029": {
+  "intent": "other",
+  "lines": [],
+  "summary": "Complains that deliveries from Kolkata take 5 days"
+ },
+ "EML-030": {
+  "intent": "other",
+  "lines": [],
+  "summary": "Asks whether a December quarter-end scheme on Monte-LC is planned"
+ }
+}

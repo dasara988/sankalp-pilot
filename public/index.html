@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sankalp pilot: claims checker and stock health</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Project Sankalp pilot</h1>
+    <p class="sub">Pfizer India, General Medicines trade channel. Recommends only: a named person approves every credit note and transfer.</p>
+    <nav>
+      <button class="tab active" data-tab="claims">Claims checker <span>Commercial Finance</span></button>
+      <button class="tab" data-tab="stock">Stock health <span>Supply Chain</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="claims" class="panel">
+      <div class="card">
+        <label for="sample">Try an email from the claims mailbox (1 to 16 Oct 2026)</label>
+        <select id="sample"><option value="">Loading emails…</option></select>
+
+        <label for="email">Stockist email</label>
+        <textarea id="email" rows="8" placeholder="Paste the stockist's email here"></textarea>
+
+        <div class="row">
+          <div>
+            <label for="sender">Stockist code from the mailbox (blank if unknown sender)</label>
+            <input id="sender" placeholder="STK0117">
+          </div>
+          <div>
+            <label for="day">Date received</label>
+            <input id="day" type="date">
+          </div>
+        </div>
+        <button id="run" class="primary">Check claim</button>
+        <p class="hint">The model only reads the email into fields. Every rule runs in code against the data, and every result shows its source.</p>
+      </div>
+      <div id="result"></div>
+    </section>
+
+    <section id="stock" class="panel" hidden>
+      <div id="stock-out"><p class="state">Loading stock health…</p></div>
+    </section>
+  </main>
+
+  <footer>Data: extracts 01 Apr 2024 to 30 Sep 2026 and the claims mailbox, 1 to 16 Oct 2026. Policy: CO-POL-014 v4.2; C&amp;F agreement SC-AGR-CF-003. Fictional teaching material.</footer>
+  <script src="/app.js"></script>
+</body>
+</html>
